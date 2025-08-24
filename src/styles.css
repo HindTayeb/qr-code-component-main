@@ -62,12 +62,9 @@
   width: min-content;
 }
 
-.card .qr-container {
-  margin-bottom: var(--space-300);
-}
-
-.card .qr-container img {
+.card img {
   width: var(--qr-size);
   height: var(--qr-size);
   border-radius: 10px;
+  margin-bottom: var(--space-300);
 }
