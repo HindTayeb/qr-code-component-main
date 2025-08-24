@@ -9,13 +9,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+This is a minimalistic, single-page component built as part of a Frontend Mentor challenge. It highlights a QR code—likely generated or styled via HTML and CSS—and serves as an entry point for visitors to engage with the Frontend Mentor platform. The layout is clean, purpose-driven, and polished.
 
 ### Screenshot
 
