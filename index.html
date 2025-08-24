@@ -11,17 +11,46 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./src/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
 
-    <title>Frontend Mentor | QR code component</title>
+    <title>QR code component | Frontend Mentor</title>
   </head>
-  <body>
-    <div class="body-bg place-content-center"></div>
+  <body class="body-custom">
+    <div class="position-absolute top-50 start-50 translate-middle">
+      <div class="card custom-card">
+        <div class="qr-container">
+          <img
+            src="./images/image-qr-code.png"
+            alt="QR code for Frontend Mentor website."
+          />
+        </div>
+        <div class="card-description text-center">
+          <div class="text-preset-1">
+            Improve your front-end skills by building projects
+          </div>
+          <div class="text-preset-2 margin-top-200">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Hind Tayeb</a>.
     </div>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
 </html>
