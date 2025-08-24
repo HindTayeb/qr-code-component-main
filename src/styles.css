@@ -23,7 +23,7 @@
 }
 
 .margin-top-200 {
-  margin-top: var(--space-200);
+  margin-block-start: var(--space-200);
 }
 
 .body-custom {
@@ -32,11 +32,11 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.7em;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--slate-900);
 }
 
 .text-preset-1 {
